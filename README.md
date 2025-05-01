@@ -1,7 +1,6 @@
 # GitHubUserActivity
 
-[This is a simple C# project that fetches a GitHub user's recent activity using GitHub’s public API.]
-(https://roadmap.sh/projects/github-user-activity)
+[This is a simple C# project that fetches a GitHub user's recent activity using GitHub’s public API.](https://roadmap.sh/projects/github-user-activity)
 
 ## What this project does
 
