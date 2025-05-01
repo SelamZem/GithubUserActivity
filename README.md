@@ -37,5 +37,5 @@ This makes the project cleaner, more readable, and easier to learn from.
 3. Enter any GitHub username when asked.
 4. The app fetches and shows their recent GitHub events.
 
-![screenshot]<img width="260" alt="UserActivity" src="https://github.com/user-attachments/assets/e863dc4e-5289-4b07-a3d5-eca45487a999" />
+<img width="600" alt="UserActivity" src="https://github.com/user-attachments/assets/e863dc4e-5289-4b07-a3d5-eca45487a999" />
 
