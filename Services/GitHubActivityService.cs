@@ -9,7 +9,7 @@ namespace GitHubUserActivity.Services
 {
     internal class GitHubActivityService
     {
-        private static readonly string ApiUrlTemplate = "https://api.github.com/users/{0}/events";
+        private static readonly string ApiUrl = "https://api.github.com/users/{0}/events";
         private readonly HttpClient _httpClient;
 
         public GitHubActivityService()
@@ -20,7 +20,7 @@ namespace GitHubUserActivity.Services
 
         public async Task<List<Event>> GetUserEventsAsync(string username)
         {
-            var url = string.Format(ApiUrlTemplate, username);
+            var url = string.Format(ApiUrl, username);
             var response = await _httpClient.GetAsync(url);
 
             if (!response.IsSuccessStatusCode)
